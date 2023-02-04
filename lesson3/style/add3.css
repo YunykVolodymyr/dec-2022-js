@@ -1,0 +1,15 @@
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+
+.post-card {
+    width: 16%;
+    margin: 0 2%;
+    border: 2px solid purple;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 5px;
+    text-align: justify;
+}
