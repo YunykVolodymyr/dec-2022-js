@@ -1,0 +1,47 @@
+
+.course {
+    padding: 20px;
+    border: 2px solid red;
+    margin: 10px 0;
+}
+
+.course *:not(.container) {
+    border: 2px solid darkblue;
+    padding: 10px;
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+    column-gap: 20px;
+}
+
+.container > * {
+    flex-grow: 1;
+    flex-basis: 1px;
+}
+
+.container > *:nth-child(2) {
+    flex-basis: 1px;
+    flex-grow: 3;
+}
+
+li {
+    margin: 10px 0;
+    list-style-type: none;
+}
+
+.collapse {
+    display: none;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid purple;
+    width: 200px;
+}
+.form > * {
+    margin: 10px;
+}
+
