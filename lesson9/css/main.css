@@ -39,7 +39,7 @@ li {
     display: flex;
     flex-direction: column;
     border: 1px solid purple;
-    width: 200px;
+    min-width: 200px;
 }
 .form > * {
     margin: 10px;

@@ -5,7 +5,7 @@ div.innerText = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad co
     ' iste iure laboriosam libero nulla odit, pariatur perferendis provident quo, ratione reprehenderit sapiente sed' +
     ' tempora unde veniam.';
 // - додати йому класи wrap, collapse, alpha, beta
-div.classList.add('wrap', 'collapse', 'alpha', 'beta');
+div.classList.add('wrap', 'colapse', 'alpha', 'beta');
 // - додати стилі(довільні значення) : колір фону, колір тексту, розмір тексту
 div.style.backgroundColor = 'silver';
 div.style.color = 'yellow';
