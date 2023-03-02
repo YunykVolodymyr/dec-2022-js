@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    column-gap: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.task2 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+td {
+    border: 1px solid black;
+}
