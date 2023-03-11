@@ -1,0 +1,20 @@
+.users {
+    list-style-type: none;
+}
+
+.users li {
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.users li:hover {
+    border: 2px solid purple;
+    cursor: pointer;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
